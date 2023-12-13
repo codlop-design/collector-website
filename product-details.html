@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>منصة اون اوف OnOff للأدوات المنزلية و الأجهزة الكهربائية</title>
+  <title>collector</title>
   <meta name="description"
     content="منصة اون اوف OnOff اول منصة رقمية لبيع الاجهزة الكهربائية و الإلكترونية و نوفر جميع الادوات المنزلية | توصيل سريع لجميع مناطق المملكة | اسعار منافسه" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/logo.png">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/my_photoes/collector.svg">
   <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/vendor/bootstrap-icons.css">
   <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
@@ -17,207 +17,112 @@
 
 <body>
   <header class="header__section">
-    <div class="main__header">
-      <div class="container-fluid">
-        <div class="main__header--inner position__relative">
-          <div class="offcanvas__header--menu__open">
-            <i class="bi bi-list"></i>
-          </div>
-          <div class="main__logo">
-            <a class="main__logo--link" href="index.html">
-              <img class="main__logo--img" src="assets/img/logo/logo.png" alt="logo-img">
+
+    <div class="header__menu style3">
+
+      <div class="main__logo">
+        <a class="main__logo--link" href="index.html">
+          <img class="main__logo--img" src="assets/img/my_photoes/collector.svg" alt="logo-img">
+        </a>
+      </div>
+
+      <nav class="header__menu--navigation">
+        <ul class="header__menu--wrapper d-flex">
+          <li class="header__menu--items">
+            <a class="header__menu--link" href="javascript:;">الرئيسية
             </a>
+          </li>
+          <li class="header__menu--items">
+            <a class="header__menu--link" href="javascript:;">من نحن
+            </a>
+          </li>
+          <li class="header__menu--items">
+            <a class="header__menu--link" href="javascript:;">المنتجات
+            </a>
+          </li>
+          <li class="header__menu--items">
+            <a class="header__menu--link" href="javascript:;">معارض الصور
+            </a>
+          </li>
+          <li class="header__menu--items contact-us-link">
+            <a class="header__menu--link" href="contact.html">تواصل معنا</a>
+          </li>
+        </ul>
+      </nav>
+
+
+      <div class="top-bar">
+        <div class="top-part">
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              العربية
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"> <img src="assets/img/my_photoes/Turkey_flag_300.png">التركية</a>
+              </li>
+              <li><a class="dropdown-item" href="#"> <img
+                    src="assets/img/my_photoes/Flag_of_the_United_States.png">الانجليزية</a></li>
+            </ul>
           </div>
-          <div class="top-bar">
-            <div class="top-part">
-              <a href="https://maroof.sa/192579" target="_blank" title="معروف" class="maroof">
-                <p>شهادة وزارة التجارة معروف</p>
-                <img src="assets/img/icon/maroof-sm.svg" alt="">
-              </a>
-              <div class="header__account">
-                <ul class="header__account--wrapper d-flex align-items-center">
-                  <li class="header__account--items">
-                    <a href="#" class="change-region header__account--btn">
-                      <i class="bi bi-geo-alt"></i>
-                      <p>
-                        <span>تغيير المنطقة</span>
-                        <em>(جدة)</em>
-                      </p>
-                    </a>
-                  </li>
-                  <li class="header__account--items wishlist-li">
-                    <a class="header__account--btn" href="wishlist.html">
-                      <i class="bi bi-heart"></i>
-                      <div class="account-btn-text">
-                        المفضلة
-                      </div>
-                    </a>
-                  </li>
-                  <li class="header__account--items">
-                    <a class="header__account--btn" href="products.html" aria-label="link">
-                      <i class="bi bi-bag"></i>
-                      <div class="account-btn-text">
-                        المتجر
-                      </div>
-                    </a>
-                  </li>
-                  <li class="header__account--items">
-                    <a class="header__account--btn" href="#" aria-label="link">
-                      <i class="bi bi-shop-window"></i>
-                      <div class="account-btn-text">
-                        حساب التاجر
-                      </div>
-                    </a>
-                  </li>
-                  <li class="header__account--items login-li">
-                    <a class="header__account--btn" href="login.html" aria-label="link">
-                      <i class="bi bi-person-circle"></i>
-                      <div class="account-btn-text">
-                        تسجيل الدخول
-                      </div>
-                    </a>
-                  </li>
-                  <li class="header__account--items cart-mobile">
-                    <a class="header__account--btn" href="cart.html">
-                      <i class="bi bi-cart2"></i>
-                      <span class="items__count">0</span>
-                      <div class="account-btn-text">
-                        0.00 ر.س
-                      </div>
-                    </a>
-                  </li>
-                  <li class="header__account--items notifications">
-                    <a class="header__account--btn" href="#" aria-label="link">
-                      <i class="bi bi-bell"></i>
-                      <span class="items__count">0</span>
-                    </a>
-                  </li>
-                </ul>
+
+
+          <li class="header__account--items login-li">
+            <a class="header__account--btn" href="login.html" aria-label="link">
+              <i class="bi bi-person-circle"></i>
+              <!-- <div class="account-btn-text">
+                تسجيل الدخول
+              </div> -->
+            </a>
+          </li>
+
+
+          <div class="onhover-dropdown">
+            <div onclick="myFunction()" class="notification-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" icon-name="bell"
+                data-lucide="bell" class="">
+                <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                <path d="M13.73 21a2 2 0 01-3.46 0"></path>
+              </svg>
+              <span class="badge rounded-pill badge-warning" id="notification_count">2</span>
+            </div>
+            <div class="onhover-show-div notification-dropdown ">
+              <div class="dropdown-title">
+                <h3>الاشعارات</h3>
               </div>
-            </div>
-            <div class="top-part">
-              <form class="search-header">
-                <input type="text" placeholder="اكتب اسم المنتج الذي تبحث عنه">
-                <button type="submit" class="btn" title="search">
-                  <i class="bi bi-search"></i>
-                </button>
-              </form>
-              <a class="cart--btn" href="cart.html">
-                <i class="bi bi-cart2"></i>
-                <span class="items__count">0</span>
-                <span class="minicart__btn--text__price">0.00 ر.س</span>
-              </a>
+
+              <ul class="custom-scrollbar" id="notifications_elements">
+                <li>
+                  <div class="media">
+                    <div class="notification-img">
+                      <img src="https://pbs.twimg.com/media/DBBkfhkXYAUNs_N?format=jpg&name=medium" alt="">
+
+                    </div>
+                    <div class="media-body">
+                      <h5><a class="m-0" href="#">محمد مصطفي</a></h5>
+                      <p>منذ5 دقائق</p><span>تسجيل الدخول</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="p-0"><a class="view-all" href="#">عرض الكل</a></li>
+              </ul>
+
             </div>
           </div>
+
+          <div class="user-icon1">
+            <img src="assets/img/my_photoes/man.svg">
+          </div>
+
+
+
         </div>
       </div>
-      <div class="header__menu style3">
-        <nav class="header__menu--navigation">
-          <ul class="header__menu--wrapper d-flex">
-            <li class="header__menu--items">
-              <a class="header__menu--link" href="javascript:;">تكييف وتدفئه
-                <i class="bi bi-chevron-down"></i>
-              </a>
-              <ul class="header__sub--menu">
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">مكيف
-                    اسبلت</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">مكيف
-                    شباك</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">مكيف
-                    دولابي</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">مكيف
-                    كاسيت</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">مكيف
-                    دكت</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">مكيف معلق
-                    جداري</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">مكيف
-                    نقال</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">دفاية</a>
-                </li>
-              </ul>
-            </li>
-            <li class="header__menu--items">
-              <a class="header__menu--link" href="javascript:;">ثلاجات و فريزرات
-                <i class="bi bi-chevron-down"></i>
-              </a>
-              <ul class="header__sub--menu">
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">ثلاجة باب
-                    واحد</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">ثلاجة
-                    بابين</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">ثلاجة
-                    دولابي</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">ثلاجة
-                    عرض</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">فريزر
-                    ارضي</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">فريزر
-                    عامودي</a></li>
-              </ul>
-            </li>
-            <li class="header__menu--items">
-              <a class="header__menu--link" href="javascript:;">الغسالات والنشافات
-                <i class="bi bi-chevron-down"></i>
-              </a>
-              <ul class="header__sub--menu">
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">غسالة
-                    اوتوماتيك امامية</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">غسالة
-                    اوتوماتيك علوية</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">غسالة
-                    حوضين</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">غسالة
-                    صحون</a></li>
-              </ul>
-            </li>
-            <li class="header__menu--items">
-              <a class="header__menu--link" href="javascript:;">الميكرويف والأفرن
-                <i class="bi bi-chevron-down"></i>
-              </a>
-              <ul class="header__sub--menu">
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">ميكرويف</a>
-                </li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">فرن غاز</a>
-                </li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">فرن
-                    كهرباء</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">ميكرويف بلت
-                    ان</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">فرن بلت
-                    ان</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">شفاط بلت
-                    ان</a></li>
-              </ul>
-            </li>
-            <li class="header__menu--items">
-              <a class="header__menu--link" href="javascript:;">أدوات المطبخ
-                <i class="bi bi-chevron-down"></i>
-              </a>
-              <ul class="header__sub--menu">
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">ستائر</a>
-                </li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">شواية
-                    كهربائية</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">غلايات
-                    الماء</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">أجهزة
-                    الكي</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">أجهزة تحضير
-                    الأطعمة والمشروبات</a>
-                </li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">أجهزة
-                    القلي</a></li>
-                <li class="header__sub--menu__items"><a href="products.html" class="header__sub--menu__link">أجهزة
-                    القهوة</a></li>
-              </ul>
-            </li>
-            <li class="header__menu--items contact-us-link">
-              <a class="header__menu--link" href="contact.html">تواصل معنا</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+
+
+    </div>
     </div>
 
   </header>
@@ -225,10 +130,7 @@
   <main class="main__content_wrapper">
     <section class="page-sec">
       <div class="container-fluid">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">ثلاجات و فريزرات</a></li>
-          <li class="breadcrumb-item"><a href="#">ثلاجة بابين</a></li>
-        </ol>
+
         <div class="dts-page">
           <div class="right-sec">
             <div class="g-d-sec">
@@ -237,16 +139,16 @@
                   <div class="swiper thumbs-img">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
-                        <img src="assets/img/product/10.png" alt="">
+                        <img src="assets/img/my_photoes/save8.jpeg" alt="">
                       </div>
                       <div class="swiper-slide">
-                        <img src="assets/img/product/4.webp" alt="">
+                        <img src="assets/img/my_photoes/save7.jpeg" alt="">
                       </div>
                       <div class="swiper-slide">
-                        <img src="assets/img/product/3.png" alt="">
+                        <img src="assets/img/my_photoes/save6.jpeg" alt="">
                       </div>
                       <div class="swiper-slide">
-                        <img src="assets/img/product/9.jpg" alt="">
+                        <img src="assets/img/my_photoes/save9.jpeg" alt="">
                       </div>
                     </div>
                     <div class="swiper-button-prev"></div>
@@ -257,74 +159,107 @@
                   <div class="swiper view-img">
                     <div class="swiper-wrapper">
                       <div class="swiper-slide" id="img-1">
-                        <img src="assets/img/product/10.png" alt="">
+                        <img src="assets/img/my_photoes/save8.jpeg" alt="">
                       </div>
                       <div class="swiper-slide" id="img-2">
-                        <img src="assets/img/product/4.webp" alt="">
+                        <img src="assets/img/my_photoes/save7.jpeg" alt="">
                       </div>
                       <div class="swiper-slide" id="img-3">
-                        <img src="assets/img/product/3.png" alt="">
+                        <img src="assets/img/my_photoes/save6.jpeg" alt="">
                       </div>
                       <div class="swiper-slide" id="img-4">
-                        <img src="assets/img/product/9.jpg" alt="">
+                        <img src="assets/img/my_photoes/save9.jpeg" alt="">
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="main-dts">
-                <h4 class="stock in-stock">متوفر فى المخزون</h4>
-                <!-- <h4 class="stock out-stock">غير متوفر</h4> -->
-                <div class="cg-share">
-                  <a href="products.html" class="c-name">ثلاجة دولابي</a>
-                  <a href="#" class="add-whishlist">
-                    <i class="bi bi-heart"></i>
+
+              <div class="left-sec_main-dts">
+
+                <div class="main-dts">
+                  <div class="cg-share">
+                    <h1>CG-700 خزنة مع أدراج مقسمة</h1>
+                    <p class="p_titel">لمشاهدة التقييمات وإضافة تقييم اضغط على عدد التقيمات</p>
+                  </div>
+                  <h3 class="p-name">تقيم المنتج</h3>
+                  <a href="#" class="p-rate">
+                    <div class="star-rating">
+                      <span style="width: 60%"></span>
+                    </div>
+                    <span class="r-num">(500 تقييم)</span>
                   </a>
-                  <!-- <a href="#" class="add-whishlist active">
-                                        <i class="bi bi-heart"></i>
-                                    </a> -->
+                  <a href="products.html" class="store-name">
+                    <img src="assets/img/tajir/3.png" alt="">
+                    الشتري
+                  </a>
+
                 </div>
-                <h3 class="p-name">هاير ثلاجة دولابي اربع ابواب رمادي 17.8 قدم مكعب</h3>
-                <a href="#" class="p-rate">
-                  <div class="star-rating">
-                    <span style="width: 60%"></span>
+
+                <div class="left-sec">
+                  <div class="p-que-addcart">
+                    <div class="flex-box">
+                      <h4 class="t-p">الكمية المرادة</h4>
+                      <div class="p-quentity">
+                        <button class="qty-btn qty-btn-plus" type="button" aria-label="btn"><i
+                            class="bi bi-plus"></i></button>
+                        <input type="number" name="qty" value="1" class="input-qty">
+                        <button class="qty-btn qty-btn-minus" type="button" aria-label="btn"><i
+                            class="bi bi-dash"></i></button>
+                      </div>
+                    </div>
+                    <a href="#" class="buy-now" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <i class="bi bi-currency-pound"></i> طلب عرض سعر
+                    </a>
+                    <!-- start order_popup -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog ">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <div class="ordering_div">
+                            <div class="order_Request">
+                              <img src="assets/img/my_photoes/tickmark.gif">
+                            </div>
+                            <div class="order_details">
+                              <div class="order_titel">
+                                <h2>تم إرسال طلب عرض سعر بنجاح</h2>
+                                <p>سيتم التواصل معك قريبًا من خلال الإدارة، وإذا كنت تود التواصل والاستفسار عن الطلب يمكنك ذلك الآن </p>
+                              </div>
+                              <div class="order_bttn">
+                                <a href="#" class="thank_btn">لا شكرا</a>
+                                <a href="#" class="contact_with">تواصل مع الادارة</a>
+
+                              </div>
+                            </div>
+        
+                     
+        
+        
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn_close" data-bs-dismiss="modal">غلق</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <span class="r-num">107 تقييم</span>
-                </a>
-                <a href="products.html" class="store-name">
-                  <img src="assets/img/tajir/3.png" alt="">
-                  الشتري
-                </a>
-                <div class="p-price">
-                  <p class="n-price">3,049 <em>ر.س</em></p>
-                  <p class="o-price">
-                    <b>3,499 <em>ر.س</em></b>
-                    <span>( خصم<em>12%</em> )</span>
-                  </p>
-                </div>
-                <p class="tax">الأسعار تشمل ضريبة القيمة المضافة</p>
-                <a href="#" class="brand-dts">
-                  <img src="assets/img/brand/4.png" alt="">
-                </a>
-                <div class="single_product_shipto">
-                  <span class="single_product_shipto_title">هذا المنتج يمكن
-                    شحنه لـ :</span>
-                  <div class="single_product_shipto_items"><strong>بريدة</strong>,
-                    <strong>عنيزة</strong>,
-                    <strong>الرس</strong>, <strong>المدينة المنورة</strong>, <strong>ينبع</strong>,
-                    <strong>الرياض</strong>, <strong>الدرعية</strong>
+
+
+
+
+                    <!-- end order_popup -->
+
+
                   </div>
+                  <div class="line"></div>
+
                 </div>
-                <span class="more-dts">الوكيل : <em>شركة الجبر للالكترونيات</em></span>
-                <span class="more-dts">الشركة : <em>توشيبا</em></span>
-                <span class="more-dts">اللون : <em>رمادي</em></span>
-                <span class="more-dts">النوع : <em>اربع ابواب</em></span>
-                <span class="more-dts">بلد المصنع : <em>الصين</em></span>
-                <span class="more-dts">الموديل : <em>HRF-550SG</em></span>
-                <span class="more-dts">الضمان : <em>سنتين شامل</em></span>
-                <span class="more-dts">ضمان مخصص : <em>عشر سنوات على الضاغط</em></span>
+
               </div>
+
             </div>
+
             <div class="ps-product__content">
               <span class="line"></span>
               <ul class="nav nav-tabs ps-tab-list" id="myTab" role="tablist">
@@ -335,51 +270,50 @@
                 </li>
                 <li class="nav-item" role="presentation">
                   <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
-                    type="button" role="tab" aria-selected="false" aria-label="btn">مراجعات المستخدمين</button>
+                    type="button" role="tab" aria-selected="false" aria-label="btn">التقيمات والمراجعات</button>
                 </li>
               </ul>
               <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" tabindex="0">
                   <div class="p-about">
-                    <h3>نبذه مختصرة</h3>
+                    <h3>التفاصيل</h3>
                     <p>
-                      ثلاجة ال جي دولابي 21.7 قدم فضي بلاتيني ، افضل ثلاجة تبريد أسرع مع طاقة أقل
-                      وتشغيل أكثر هدوءًا من الثلاجات الأخرى ، أجهزة عالية التقنية ، وفر الوقت
-                      والجهد فى البحث عن ايهما افضل ثلاجة مع ثلاجة ال جي دولابي 21.7 قدم فضي
-                      بلاتيني ، تشكيلة رائعة من الثلاجات لدى متجر اون اوف ، أسلوب حياة أكثر صحة ،
-                      تسوق الأن من خلال طريقة التسوق الذكي على منصة اون اوف السعودية أفضل منصة
-                      للتسوق الذكي للأجهزة المنزلية.
+                      خزنة CG-700 هي خزنة أمان عالية الجودة مع أدراج مقسمة. إنها مثالية لتخزين الأشياء الثمينة، مثل
+                      النقود والمجوهرات والوثائق.
+                      الخزنة مصنوعة من الصلب السميك، مما يوفر حماية ممتازة ضد السرقة والسطو. كما أنها مقاومة للحريق لمدة
+                      120 دقيقة، مما يوفر حماية إضافية للأشياء الثمينة الحساسة للحرارة.
+                      تتميز الخزنة بأربعة أدراج مقسمة، مما يوفر مساحة تخزين منظمة. الأدراج مصنوعة من الصلب أيضًا، مما
+                      يوفر حماية إضافية للأشياء الثمينة.
+                      الخزنة مزودة بقفل ميكانيكي، مما يوفر حماية إضافية ضد السرقة. القفل مصنوع من سبائك الصلب عالية
+                      الجودة، وهو مقاوم للحفر والقطع.
+                      الخزنة تأتي مع ضمان لمدة خمس سنوات، مما يوفر راحة البال لمالكها. الحجم: يبلغ طول الخزنة 400 ملم
+                      وعرضها 300 ملم وارتفاعها 200 ملم. هذا يجعلها مناسبة للاستخدام في المنزل أو المكتب أو أي مكان آخر.
+                      الوزن: تزن الخزنة 20 كجم. هذا يجعلها ثقيلة نسبيًا، مما قد يجعلها صعبة النقل.
+                      سعة التخزين: تبلغ سعة التخزين للخزنة 100 لتر. هذا يكفي لتخزين مجموعة متنوعة من الأشياء الثمينة،
+                      مثل النقود والمجوهرات والوثائق.
+                      القفل: الخزنة مزودة بقفل ميكانيكي. القفل مصنوع من سبائك الصلب عالية الجودة، وهو مقاوم للحفر
+                      والقطع. ومع ذلك، قد يكون القفل الميكانيكي أقل أمانًا من القفل الإلكتروني.
+                      مستوى الأمان: تتمتع الخزنة بمستوى أمان عالٍ. مصنوعة من الصلب السميك، وهي مقاومة للحريق لمدة 120
+                      دقيقة.
+                      مقاومة الحريق: تتمتع الخزنة بمقاومة للحريق لمدة 120 دقيقة. هذا يعني أنها يمكن أن تحمي الأشياء
+                      الثمينة من الحريق لمدة تصل إلى ساعتين.
+                      الضمان: تأتي الخزنة مع ضمان لمدة خمس سنوات. هذا يوفر راحة البال لمالكها.
+
                     </p>
                   </div>
-                  <div class="p-desc">
-                    <h3>التفاصيل</h3>
-                    <div class="desc-cont">
-                      <ul>
-                        <li><span>النوع : ثلاجة 2 باب</span></li>
-                        <li><span>دولابي جنبا الى جنب</span></li>
-                        <li><span>الحجم : 21.7 قدم</span></li>
-                        <li><span>السعه : 617 لتر</span></li>
-                        <li><span>ضاغط خطي عاكس</span></li>
-                        <li><span>مقبض مخفي</span></li>
-                        <li><span>تقنية تبريد الباب</span></li>
-                        <li><span>إضاءة ليد داخلية</span></li>
-                        <li><span>واي فاي</span></li>
-                        <li><span>إنذار فتح الباب</span></li>
-                      </ul>
-                    </div>
-                  </div>
+
                 </div>
                 <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" tabindex="0">
                   <div class="rating-sec">
                     <div class="overall-rate">
                       <div class="rate-number">
-                        <p>التقييم الإجمالى</p>
-                        <h4>4.0<span>من</span>5</h4>
+                        <p>التقيمات والمراجعات</p>
+                        <h4>4.5</h4>
                         <div class="rate-star">
                           <div class="star-rating">
                             <span style="width: 60%"></span>
                           </div>
-                          <span class="r-c">( 107 تقييم )</span>
+                          <span class="r-c">( 500 تقييم )</span>
                         </div>
                       </div>
                       <div class="rate-progress">
@@ -433,54 +367,54 @@
                       </div>
                     </div>
                     <div class="user-rating">
-                      <h3>تعليقات المستخدمين</h3>
+                      <h3>تقيمات العملاء</h3>
                       <ul class="comment-list">
                         <li>
                           <img src="assets/img/icon/user.svg" alt="">
                           <div class="user-comment">
-                            <h4>abdelrahman Mohamed
-                              <span><em>تاريخ المراجعة</em>20/11/2022</span>
+                            <h4>شاكر عوض الشهري
+                              <span>20/11/2022</span>
                             </h4>
                             <div class="star-rating">
                               <span style="width: 60%"></span>
                             </div>
-                            <p>الثلاجة جيده جدا والتوصيل سريع , سعدت بالتعامل معكم .</p>
+                            <p>تلبي توقعاتي تمامًا</p>
                           </div>
                         </li>
                         <li>
                           <img src="assets/img/icon/user.svg"" alt="">
                                                     <div class=" user-comment">
-                          <h4>abdelrahman Mohamed
-                            <span><em>تاريخ المراجعة</em>20/11/2022</span>
+                          <h4>شاكر عوض الشهري
+                            <span>20/11/2022</span>
                           </h4>
                           <div class="star-rating">
                             <span style="width: 60%"></span>
                           </div>
-                          <p>الثلاجة جيده جدا والتوصيل سريع , سعدت بالتعامل معكم .</p>
+                          <p>تلبي توقعاتي تمامًا</p>
                     </div>
                     </li>
                     <li>
                       <img src="assets/img/icon/user.svg"" alt="">
                                                     <div class=" user-comment">
-                      <h4>abdelrahman Mohamed
-                        <span><em>تاريخ المراجعة</em>20/11/2022</span>
+                      <h4> شاكر عوض الشهري
+                        <span>20/11/2022</span>
                       </h4>
                       <div class="star-rating">
                         <span style="width: 60%"></span>
                       </div>
-                      <p>الثلاجة جيده جدا والتوصيل سريع , سعدت بالتعامل معكم .</p>
+                      <p>تلبي توقعاتي تمامًا</p>
                   </div>
                   </li>
                   <li>
                     <img src="assets/img/icon/user.svg"" alt="">
                                                     <div class=" user-comment">
-                    <h4>abdelrahman Mohamed
-                      <span><em>تاريخ المراجعة</em>20/11/2022</span>
+                    <h4> شاكر عوض الشهري
+                      <span>20/11/2022</span>
                     </h4>
                     <div class="star-rating">
                       <span style="width: 60%"></span>
                     </div>
-                    <p>الثلاجة جيده جدا والتوصيل سريع , سعدت بالتعامل معكم .</p>
+                    <p>تلبي توقعاتي تمامًا</p>
                 </div>
                 </li>
                 </ul>
@@ -490,491 +424,10 @@
         </div>
       </div>
       </div>
-      <div class="left-sec">
-        <a href="products.html" class="store-name">
-          <img src="assets/img/tajir/3.png" alt="">
-          الشتري
-        </a>
-        <h4 class="stock in-stock">متوفر فى المخزون</h4>
-        <!-- <h4 class="stock out-stock">غير متوفر</h4> -->
-        <div class="p-que-addcart">
-          <div class="flex-box">
-            <h4 class="t-p">الكمية</h4>
-            <div class="p-quentity">
-              <button class="qty-btn qty-btn-plus" type="button" aria-label="btn"><i class="bi bi-plus"></i></button>
-              <input type="number" name="qty" value="1" class="input-qty">
-              <button class="qty-btn qty-btn-minus" type="button" aria-label="btn"><i class="bi bi-dash"></i></button>
-            </div>
-          </div>
-          <a href="checkout.html" class="buy-now">
-            <i class="bi bi-bag"></i>
-            شراء المنتج الآن
-          </a>
-          <a href="cart.html" class="cart-btn">
-            <i class="bi bi-cart-plus"></i>
-            أضف إلى عربة التسوق
-          </a>
-        </div>
-        <div class="line"></div>
-        <div class="ship-time">
-          <p>
-            منطقتك:
-            <b>الرياض</b>
-          </p>
-          <p>
-            تكاليف الشحن:
-            <b> 0 ر.س</b>
-          </p>
-          <p>
-            الوقت المقدر للشحن:
-            <b>يوم واحد</b>
-          </p>
-        </div>
-      </div>
+
       </div>
 
-      <section class="product__section section--padding product--div">
-        <div class="section__heading mb-30">
-          <h2 class="section__heading--maintitle">منتجات ذات صلة</h2>
-        </div>
-        <div class="product__section--inner pb-15 product__swiper--activation swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <article class="product__card">
-                <div class="product__card--thumbnail">
-                  <a class="product__card--thumbnail__link display-block" href="product-details.html">
-                    <img class="product__card--thumbnail__img product__primary--img" src="assets/img/product/4.webp"
-                      alt="product-img">
-                  </a>
-                  <a href="#" class="add-whishlist" title="link">
-                    <i class="bi bi-heart"></i>
-                  </a>
-                  <div class="abs-div">
-                    <div class="taby-tamara">
-                      <a href="#" class="activation-request">
-                        طلب تفعيل تابي او تمارا <i class="bi bi-whatsapp"></i>
-                      </a>
-                      <div class="logos-div">
-                        <span><img src="assets/img/tabby.png" alt=""></span>
-                        <span><img src="assets/img/Tamara.webp" alt=""></span>
-                      </div>
-                    </div>
-                    <span class="available-place">متوفر في منطقة القصيم</span>
-                  </div>
-                </div>
-                <div class="product__card--content">
-                  <div class="logo-store">
-                    <a href="products.html" class="tajer-name">
-                      رؤية الجوهري
-                    </a>
-                    <div class="logos-div">
-                      <span><img src="assets/img/tabby.png" alt=""></span>
-                      <span><img src="assets/img/Tamara.webp" alt=""></span>
-                    </div>
-                  </div>
-                  <ul class="rating product__card--rating d-flex rating-prd">
-                    <li class="rating__list">
-                      <div class="star-rating">
-                        <span style="width: 60%"></span>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="rating__review--text">(126) مراجعة</span>
-                    </li>
-                  </ul>
-                  <h3 class="product__card--title">
-                    <a href="product-details.html">
-                      مكيف اسبلت ماندو بلس 36 بارد 3 قدرة تبريد 31400 وحدة - مصنع
-                    </a>
-                  </h3>
-                  <div class="product__card--price">
-                    <span class="current__price">2549.00 رس</span>
-                    <span class="old__price">2749.00 رس</span>
-                  </div>
-                  <div class="product__card--footer">
-                    <a class="product__card--btn primary__btn" href="cart.html">
-                      <i class="bi bi-cart-plus"></i>
-                      اضف الي السلة
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="swiper-slide">
-              <article class="product__card">
-                <div class="product__card--thumbnail">
-                  <a class="product__card--thumbnail__link display-block" href="product-details.html">
-                    <img class="product__card--thumbnail__img product__primary--img" src="assets/img/product/7.jpg"
-                      alt="product-img">
-                  </a>
-                  <a href="#" class="add-whishlist" title="link">
-                    <i class="bi bi-heart"></i>
-                  </a>
-                  <div class="abs-div">
-                    <div class="taby-tamara">
-                      <a href="#" class="activation-request">
-                        طلب تفعيل تابي او تمارا <i class="bi bi-whatsapp"></i>
-                      </a>
-                      <div class="logos-div">
-                        <span><img src="assets/img/tabby.png" alt=""></span>
-                        <span><img src="assets/img/Tamara.webp" alt=""></span>
-                      </div>
-                    </div>
-                    <span class="available-place">متوفر في منطقة القصيم</span>
-                  </div>
-                </div>
-                <div class="product__card--content">
-                  <div class="logo-store">
-                    <a href="products.html" class="tajer-name">
-                      الازدهار
-                    </a>
-                    <div class="logos-div">
-                      <span><img src="assets/img/tabby.png" alt=""></span>
-                      <span><img src="assets/img/Tamara.webp" alt=""></span>
-                    </div>
-                  </div>
-                  <ul class="rating product__card--rating d-flex rating-prd">
-                    <li class="rating__list">
-                      <div class="star-rating">
-                        <span style="width: 60%"></span>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="rating__review--text">(126) مراجعة</span>
-                    </li>
-                  </ul>
-                  <h3 class="product__card--title">
-                    <a href="product-details.html">
-                      مكيف اسبلت ماندو بلس 36 بارد 3 قدرة تبريد 31400 وحدة - مصنع
-                    </a>
-                  </h3>
-                  <div class="product__card--price">
-                    <span class="current__price">2549.00 رس</span>
-                    <span class="old__price">2749.00 رس</span>
-                  </div>
-                  <div class="product__card--footer">
-                    <a class="product__card--btn primary__btn" href="cart.html">
-                      <i class="bi bi-cart-plus"></i>
-                      اضف الي السلة
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="swiper-slide">
-              <article class="product__card">
-                <div class="product__card--thumbnail">
-                  <a class="product__card--thumbnail__link display-block" href="product-details.html">
-                    <img class="product__card--thumbnail__img product__primary--img" src="assets/img/product/8.jpeg"
-                      alt="product-img">
-                  </a>
-                  <a href="#" class="add-whishlist" title="link">
-                    <i class="bi bi-heart"></i>
-                  </a>
-                  <div class="abs-div">
-                    <div class="taby-tamara">
-                      <a href="#" class="activation-request">
-                        طلب تفعيل تابي او تمارا <i class="bi bi-whatsapp"></i>
-                      </a>
-                      <div class="logos-div">
-                        <span><img src="assets/img/tabby.png" alt=""></span>
-                        <span><img src="assets/img/Tamara.webp" alt=""></span>
-                      </div>
-                    </div>
-                    <span class="available-place">متوفر في منطقة القصيم</span>
-                  </div>
-                </div>
-                <div class="product__card--content">
-                  <div class="logo-store">
-                    <a href="products.html" class="tajer-name">
-                      الرواد
-                    </a>
-                    <div class="logos-div">
-                      <span><img src="assets/img/tabby.png" alt=""></span>
-                      <span><img src="assets/img/Tamara.webp" alt=""></span>
-                    </div>
-                  </div>
-                  <ul class="rating product__card--rating d-flex rating-prd">
-                    <li class="rating__list">
-                      <div class="star-rating">
-                        <span style="width: 60%"></span>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="rating__review--text">(126) مراجعة</span>
-                    </li>
-                  </ul>
-                  <h3 class="product__card--title">
-                    <a href="product-details.html">
-                      مكيف اسبلت ماندو بلس 36 بارد 3 قدرة تبريد 31400 وحدة - مصنع
-                    </a>
-                  </h3>
-                  <div class="product__card--price">
-                    <span class="current__price">2549.00 رس</span>
-                    <span class="old__price">2749.00 رس</span>
-                  </div>
-                  <div class="product__card--footer">
-                    <a class="product__card--btn primary__btn" href="cart.html">
-                      <i class="bi bi-cart-plus"></i>
-                      اضف الي السلة
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="swiper-slide">
-              <article class="product__card">
-                <div class="product__card--thumbnail">
-                  <a class="product__card--thumbnail__link display-block" href="product-details.html">
-                    <img class="product__card--thumbnail__img product__primary--img" src="assets/img/product/4.webp"
-                      alt="product-img">
-                  </a>
-                  <a href="#" class="add-whishlist" title="link">
-                    <i class="bi bi-heart"></i>
-                  </a>
-                  <div class="abs-div">
-                    <div class="taby-tamara">
-                      <a href="#" class="activation-request">
-                        طلب تفعيل تابي او تمارا <i class="bi bi-whatsapp"></i>
-                      </a>
-                      <div class="logos-div">
-                        <span><img src="assets/img/tabby.png" alt=""></span>
-                        <span><img src="assets/img/Tamara.webp" alt=""></span>
-                      </div>
-                    </div>
-                    <span class="available-place">متوفر في منطقة القصيم</span>
-                  </div>
-                </div>
-                <div class="product__card--content">
-                  <div class="logo-store">
-                    <a href="products.html" class="tajer-name">
-                      برافكو
-                    </a>
-                    <div class="logos-div">
-                      <span><img src="assets/img/tabby.png" alt=""></span>
-                      <span><img src="assets/img/Tamara.webp" alt=""></span>
-                    </div>
-                  </div>
-                  <ul class="rating product__card--rating d-flex rating-prd">
-                    <li class="rating__list">
-                      <div class="star-rating">
-                        <span style="width: 60%"></span>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="rating__review--text">(126) مراجعة</span>
-                    </li>
-                  </ul>
-                  <h3 class="product__card--title">
-                    <a href="product-details.html">
-                      مكيف اسبلت ماندو بلس 36 بارد 3 قدرة تبريد 31400 وحدة - مصنع
-                    </a>
-                  </h3>
-                  <div class="product__card--price">
-                    <span class="current__price">2549.00 رس</span>
-                    <span class="old__price">2749.00 رس</span>
-                  </div>
-                  <div class="product__card--footer">
-                    <a class="product__card--btn primary__btn" href="cart.html">
-                      <i class="bi bi-cart-plus"></i>
-                      اضف الي السلة
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="swiper-slide">
-              <article class="product__card">
-                <div class="product__card--thumbnail">
-                  <a class="product__card--thumbnail__link display-block" href="product-details.html">
-                    <img class="product__card--thumbnail__img product__primary--img" src="assets/img/product/7.jpg"
-                      alt="product-img">
-                  </a>
-                  <a href="#" class="add-whishlist" title="link">
-                    <i class="bi bi-heart"></i>
-                  </a>
-                  <div class="abs-div">
-                    <div class="taby-tamara">
-                      <a href="#" class="activation-request">
-                        طلب تفعيل تابي او تمارا <i class="bi bi-whatsapp"></i>
-                      </a>
-                      <div class="logos-div">
-                        <span><img src="assets/img/tabby.png" alt=""></span>
-                        <span><img src="assets/img/Tamara.webp" alt=""></span>
-                      </div>
-                    </div>
-                    <span class="available-place">متوفر في منطقة القصيم</span>
-                  </div>
-                </div>
-                <div class="product__card--content">
-                  <div class="logo-store">
-                    <a href="products.html" class="tajer-name">
-                      واد الجليد
-                    </a>
-                    <div class="logos-div">
-                      <span><img src="assets/img/tabby.png" alt=""></span>
-                      <span><img src="assets/img/Tamara.webp" alt=""></span>
-                    </div>
-                  </div>
-                  <ul class="rating product__card--rating d-flex rating-prd">
-                    <li class="rating__list">
-                      <div class="star-rating">
-                        <span style="width: 60%"></span>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="rating__review--text">(126) مراجعة</span>
-                    </li>
-                  </ul>
-                  <h3 class="product__card--title">
-                    <a href="product-details.html">
-                      مكيف اسبلت ماندو بلس 36 بارد 3 قدرة تبريد 31400 وحدة - مصنع
-                    </a>
-                  </h3>
-                  <div class="product__card--price">
-                    <span class="current__price">2549.00 رس</span>
-                    <span class="old__price">2749.00 رس</span>
-                  </div>
-                  <div class="product__card--footer">
-                    <a class="product__card--btn primary__btn" href="cart.html">
-                      <i class="bi bi-cart-plus"></i>
-                      اضف الي السلة
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="swiper-slide">
-              <article class="product__card">
-                <div class="product__card--thumbnail">
-                  <a class="product__card--thumbnail__link display-block" href="product-details.html">
-                    <img class="product__card--thumbnail__img product__primary--img" src="assets/img/product/8.jpeg"
-                      alt="product-img">
-                  </a>
-                  <a href="#" class="add-whishlist" title="link">
-                    <i class="bi bi-heart"></i>
-                  </a>
-                  <div class="abs-div">
-                    <div class="taby-tamara">
-                      <a href="#" class="activation-request">
-                        طلب تفعيل تابي او تمارا <i class="bi bi-whatsapp"></i>
-                      </a>
-                      <div class="logos-div">
-                        <span><img src="assets/img/tabby.png" alt=""></span>
-                        <span><img src="assets/img/Tamara.webp" alt=""></span>
-                      </div>
-                    </div>
-                    <span class="available-place">متوفر في منطقة القصيم</span>
-                  </div>
-                </div>
-                <div class="product__card--content">
-                  <div class="logo-store">
-                    <a href="products.html" class="tajer-name">
-                      رغد التميز
-                    </a>
-                    <div class="logos-div">
-                      <span><img src="assets/img/tabby.png" alt=""></span>
-                      <span><img src="assets/img/Tamara.webp" alt=""></span>
-                    </div>
-                  </div>
-                  <ul class="rating product__card--rating d-flex rating-prd">
-                    <li class="rating__list">
-                      <div class="star-rating">
-                        <span style="width: 60%"></span>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="rating__review--text">(126) مراجعة</span>
-                    </li>
-                  </ul>
-                  <h3 class="product__card--title">
-                    <a href="product-details.html">
-                      مكيف اسبلت ماندو بلس 36 بارد 3 قدرة تبريد 31400 وحدة - مصنع
-                    </a>
-                  </h3>
-                  <div class="product__card--price">
-                    <span class="current__price">2549.00 رس</span>
-                    <span class="old__price">2749.00 رس</span>
-                  </div>
-                  <div class="product__card--footer">
-                    <a class="product__card--btn primary__btn" href="cart.html">
-                      <i class="bi bi-cart-plus"></i>
-                      اضف الي السلة
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="swiper-slide">
-              <article class="product__card">
-                <div class="product__card--thumbnail">
-                  <a class="product__card--thumbnail__link display-block" href="product-details.html">
-                    <img class="product__card--thumbnail__img product__primary--img" src="assets/img/product/4.webp"
-                      alt="product-img">
-                  </a>
-                  <a href="#" class="add-whishlist" title="link">
-                    <i class="bi bi-heart"></i>
-                  </a>
-                  <div class="abs-div">
-                    <div class="taby-tamara">
-                      <a href="#" class="activation-request">
-                        طلب تفعيل تابي او تمارا <i class="bi bi-whatsapp"></i>
-                      </a>
-                      <div class="logos-div">
-                        <span><img src="assets/img/tabby.png" alt=""></span>
-                        <span><img src="assets/img/Tamara.webp" alt=""></span>
-                      </div>
-                    </div>
-                    <span class="available-place">متوفر في منطقة القصيم</span>
-                  </div>
-                </div>
-                <div class="product__card--content">
-                  <div class="logo-store">
-                    <a href="products.html" class="tajer-name">
-                      اجواء المنبع
-                    </a>
-                    <div class="logos-div">
-                      <span><img src="assets/img/tabby.png" alt=""></span>
-                      <span><img src="assets/img/Tamara.webp" alt=""></span>
-                    </div>
-                  </div>
-                  <ul class="rating product__card--rating d-flex rating-prd">
-                    <li class="rating__list">
-                      <div class="star-rating">
-                        <span style="width: 60%"></span>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="rating__review--text">(126) مراجعة</span>
-                    </li>
-                  </ul>
-                  <h3 class="product__card--title">
-                    <a href="product-details.html">
-                      مكيف اسبلت ماندو بلس 36 بارد 3 قدرة تبريد 31400 وحدة - مصنع
-                    </a>
-                  </h3>
-                  <div class="product__card--price">
-                    <span class="current__price">2549.00 رس</span>
-                    <span class="old__price">2749.00 رس</span>
-                  </div>
-                  <div class="product__card--footer">
-                    <a class="product__card--btn primary__btn" href="cart.html">
-                      <i class="bi bi-cart-plus"></i>
-                      اضف الي السلة
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="swiper__nav--btn swiper-button-next">
-            <i class="bi bi-arrow-left-short"></i>
-          </div>
-          <div class="swiper__nav--btn swiper-button-prev">
-            <i class="bi bi-arrow-right-short"></i>
-          </div>
-        </div>
-      </section>
+
       </div>
     </section>
   </main>
@@ -985,19 +438,17 @@
         <div class="row ">
           <div class="col-lg-4 col-md-12">
             <div class="footer__widget">
-              <h2 class="footer__widget--title">عن المتجر</h2>
+              <h2 class="footer__widget--title">عن collectot</h2>
               <div class="footer__widget--inner">
                 <p class="footer__widget--desc">منصة الكترونية تتكون من موقع وتطبيق تقدم خدمات للعميل
-                  لتسهيل شراء الأجهزة المنزلية وحل مشكلة البعدين الجغرافي والزمني وتسريع وتحسين كفاءة
-                  الخدمة المقدمة في المجال الاجهزة المنزلية</p>
-                  <div class="vat-maroof">
-                    <a class="vat" href="#" target="_blank" title="ضريبة القيمة المضافة">
-                      <img src="assets/img/icon/vat-verfied.png" alt="">
-                    </a>
-                    <a class="maroof-link" href="https://maroof.sa/192579" target="_blank" title="معروف">
-                      <img src="assets/img/icon/maroof.png" alt="">
-                    </a>
-                  </div>
+                  لتسهيل شراء  الخزن القمية وحل مشكلة البعدين الجغرافي والزمني وتسريع وتحسين كفاءة
+                  الخدمة المقدمة في مجال الامن والسلامة</p>
+                <div class="vat-maroof">
+          
+                  <a class="collector-link" href="#" target="_blank" title="collector">
+                    <img src="assets/img/my_photoes/collector.svg" alt="">
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -1005,14 +456,12 @@
             <div class="footer__widget">
               <h2 class="footer__widget--title ">حسابي</h2>
               <ul class="footer__widget--menu footer__widget--inner">
-                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="cart.html">السلة</a>
-                </li>
+                
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="login.html">تسجيل
                     الدخول</a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="register.html">انشاء
                     حساب</a></li>
-                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
-                    href="wishlist.html">المفضلة</a></li>
+           
               </ul>
             </div>
           </div>
@@ -1020,18 +469,19 @@
             <div class="footer__widget">
               <h2 class="footer__widget--title ">معلومات عامة</h2>
               <ul class="footer__widget--menu footer__widget--inner">
+                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="index.html">الرئيسية
+                </a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">من
                     نحن</a></li>
+                    <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">المنتجات
+                      </a></li>
+                      <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">معارض الصور
+                        </a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="contact.html">تواصل
                     معنا</a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
-                    href="terms-and-conditions.html">الشحن والدفع</a></li>
-                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
-                    href="terms-and-conditions.html">الضمان والارجاع</a></li>
-                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
                     href="terms-and-conditions.html">سياسة الخصوصية</a></li>
-                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
-                    href="blogs.html">المقالات</a></li>
+            
               </ul>
             </div>
           </div>
@@ -1039,26 +489,26 @@
             <div class="footer__widget">
               <h2 class="footer__widget--title ">أتصل بنا</h2>
               <div class="contact-us-footer">
-                  <li>
-                    <i class="bi bi-geo-alt"></i>
-                    <p>Saudi Arabia, AlQassim, Buraydah, King Salman Rd, Ar Rayan,52379</p>
-                  </li>
-                  <li>
-                    <i class="bi bi-telephone"></i>
-                    <a href="tel:+966530867300">+966530867300</a>
-                  </li>
-                  <li>
-                    <i class="bi bi-envelope"></i>
-                    <a href="mailto: Support@onoff.sa">Support@onoff.sa</a>
-                  </li>
-                  <li>
-                    <i class="bi bi-r-circle"></i>
-                    <p>Business registration number : 1131279608</p>
-                  </li>
-                  <li>
-                    <i class="bi bi-percent"></i>
-                    <p>Vat number : 311335856500003</p>
-                  </li>
+                <li>
+                  <i class="bi bi-geo-alt"></i>
+                  <p>Saudi Arabia, AlQassim, Buraydah, King Salman Rd, Ar Rayan,52379</p>
+                </li>
+                <li>
+                  <i class="bi bi-telephone"></i>
+                  <a href="tel:+966530867300">+966530867300</a>
+                </li>
+                <li>
+                  <i class="bi bi-envelope"></i>
+                  <a href="mailto: Support@onoff.sa">Support@onoff.sa</a>
+                </li>
+                <li>
+                  <i class="bi bi-r-circle"></i>
+                  <p>Business registration number : 1131279608</p>
+                </li>
+                <li>
+                  <i class="bi bi-percent"></i>
+                  <p>Vat number : 311335856500003</p>
+                </li>
               </div>
             </div>
           </div>
@@ -1240,6 +690,14 @@
       new ImageZoom(document.getElementById("img-2"), options2);
       new ImageZoom(document.getElementById("img-3"), options2);
       new ImageZoom(document.getElementById("img-4"), options2);
+    }
+  </script>
+
+  <!-- الاسكربتاية الخاصة بالاشعارات اللي في الهيدر  -->
+  <script>
+    function myFunction() {
+      var element = document.querySelector(".notification-dropdown");
+      element.classList.toggle("active");
     }
   </script>
 </body>
