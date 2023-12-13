@@ -211,8 +211,8 @@ $(document).on('change', '#sign-tajer', function () {
 // toogle password
 $('.toogle-password').on('click', function (event) {
     event.preventDefault();
-    $(this).toggleClass('fa-eye');
-    $(this).toggleClass('fa-eye-slash');
+    $(this).toggleClass('bi-eye');
+    $(this).toggleClass('bi-eye-slash');
     var parent = $(this).parent();
     var type = parent.find('input').attr('type') == 'password' ? 'text' : 'password';
     parent.find('input').attr('type', type);

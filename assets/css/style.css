@@ -83,7 +83,11 @@ body {
 
 
 p:last-child {
-  margin-bottom: 0
+  margin-bottom: 0;
+  color: #747473;
+  font-size: 16px;
+  
+  /* 21.6px */
 }
 
 a,
@@ -1330,23 +1334,39 @@ select {
 }
 
 .account__login--header__title {
-  font-size: 22px;
-  margin-bottom: 8px;
+
+
+  /* 27.6px */
+
+color: #141105;
+
+text-align: center;
+
+font-size: 22px;
+
+
+  /* 27.6px */
+
+margin-bottom: 8px;
 }
 
 .account__login--header__desc {
-  font-size: 16px;
-  color: var(--foreground-sub-color)
+  
+  
+  /* 42px */
+  
+color: #3C3C3C;
 }
 
 .account__login--input {
   width: 100%;
   height: auto;
-  border-radius: 0;
-  padding: 2px 10px;
+  padding: 6px 10px;
   border: 1px solid #a6a6a6;
   border-top-color: #949494;
   box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+  border-radius: 6px;
+  padding-right: 50px;
 }
 
 .account__login--input:focus {
@@ -1359,17 +1379,21 @@ select {
   font-size: 17px;
   font-weight: normal;
   margin-top: 15px;
+  border-radius: 10px;
+  background: #3C3C3C !important;
 }
 
 .account__login--signup__text {
-  text-align: center;
-  font-size: 16px;
-  color: var(--foreground-sub-color);
+  font-size: 16px !important;
   display: flex;
   justify-content: center;
   gap: 6px;
   flex-wrap: wrap;
-  margin-top: 25px;
+  margin-top: 32px;
+  color: #747473 !important;
+  text-align: center;
+
+position: relative;
 }
 
 .account__login--signup__text a {
@@ -1381,11 +1405,13 @@ select {
 }
 
 .account__login--forgot {
-  color: var(--foreground-sub-color);
-  font-size: 16px;
   border: 0;
   padding: 0;
-  background: inherit
+  color: #3C3C3C;
+  font-size: 16px;
+  font-weight: 500;
+  /* 24px */
+  margin-right: auto;
 }
 
 .account__login--forgot:hover {
@@ -1864,11 +1890,12 @@ input[type=number]::-webkit-inner-spin-button {
 .title-page {
   font-weight: normal;
   color: #272a32;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 26px;
+  font-size: 28px;
+  /* justify-content: center; */
 }
 
 .title-page span {
@@ -3096,14 +3123,14 @@ em {
 
 .form-group .toogle-password {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 1px;
+  bottom: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 35px;
   height: 34px;
-  font-size: 14px;
+  font-size: 18px;
   color: #7a808f;
   cursor: pointer;
 }
@@ -4421,6 +4448,7 @@ em {
   font-weight: normal;
   margin-bottom: 10px;
   color: #241f22;
+  margin-top: 25px;
 }
 
 .contact-us-div h3 a,
@@ -5970,6 +5998,12 @@ body.no-scroll {
   z-index: 1;
   position: relative;
 }
+.account__login--header__pragraph{
+  text-align: start;
+}
+.account__login--remember__forgot {
+  margin-top: 8px;
+}
 
 .store-profile .info-store h3 {
   font-size: 25px;
@@ -6013,3 +6047,141 @@ body.no-scroll {
   line-height: 30px;
 }
 
+.main__content_wrapper .title-header {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+.Verification{
+  padding-right: 10px !important;
+}
+
+.imge-label {
+  position: absolute;
+  right: 15px;
+  top: 35px;
+  width: 20px;
+  height: 20px;
+}
+
+.account__login-images {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.account__login-img {
+  width: 40px;
+  height: 40px;
+}
+
+.account__login-pragraph {
+  color: #747473;
+  text-align: center;
+
+  font-size: 16px;
+
+  font-weight: 300;
+
+}
+.account__login-skill{
+  text-align: center;
+}
+
+.account__login-skill a{
+
+  color: #747473 !important;
+
+  font-size: 16px !important;
+
+  font-weight: 400 !important;
+
+}
+.account__login--signup__text::after{
+  content: "";
+  position: absolute;
+  top: 13px;
+  right: 8px;
+  left: 0;
+  background-color: #00000012;
+
+  width: 160px;
+  height: 1px;
+}
+.account__login--signup__text::before{
+  content: "";
+  position: absolute;
+  top: 13px;
+  right: 230px;
+  left: 0;
+  background-color: #00000012;
+  width: 160px;
+  height: 1px;
+}
+.account__login-pragraph a{
+  color: #3C3C3C;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+}
+.Verification-code::before{
+  content: "";
+  display: none;
+}
+.Verification-code::after{
+  content: "";
+  display: none;
+}
+.remove{
+  color: #f40853 !important;
+}
+.content-account-imge{position: relative;
+  margin-bottom: 24px;
+}
+.content-imge{border-radius: 136px;
+  border: 4px solid #564E2F;
+  width: 136px;
+  height: 136px;
+  object-fit: cover;
+}
+
+.content-amg{
+    width: 35px;
+    height: 35px;
+    border-radius: 999px;
+    border: 4px solid  #FBFBF9;
+    background: #3C3C3C;
+    position: absolute;
+    top: 100px;
+    right: 70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+.relation-icon{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+}
+.relation-phone{
+    display: flex;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #3C3C3C;
+    padding: 8px;
+}
+.icon-phone{
+    font-size: 22px;
+}
+.title-relation{
+    color: #3C3C3C;
+    font-size: 17px !important;
+}
