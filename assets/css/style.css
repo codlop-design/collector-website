@@ -4961,7 +4961,7 @@ em {
 .order-status {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 30px !important;
 }
 
 .order-status li {
@@ -5037,13 +5037,13 @@ display: none;
 
 .order-status li.active::after,
 .order-status li.active::before {
-  background: #4caf50;
-  box-shadow: inset 0px 2px 2px #429746;
+  background: #15742B;
+  box-shadow: inset 0px 2px 2px #15742B;
 }
 
 .order-status li.active p em {
-  background: #4caf50;
-  box-shadow: inset 1px 1px 1px #429746;
+  background: #15742B;
+  box-shadow: inset 1px 1px 1px #15742B;
 }
 
 .order-status li.active p em i {
@@ -5053,7 +5053,7 @@ display: none;
 }
 
 .order-status li.active p span {
-  color: #272a32;
+  color: #15742B;
 }
 
 .order-details {
@@ -6926,6 +6926,30 @@ body.no-scroll {
   background-color: #161414;
 }
 
+
+/* start my updates */
+.order-status li.actives::after, .order-status li.actives::before{
+background-color: #3C3C3C;
+box-shadow: inset 0px 2px 2px #3c3c3c;
+}
+.order-status li.actives p em {
+  background: #3c3c3c;
+  box-shadow: inset 1px 1px 1px #3c3c3c;
+
+}
+.order-status li.actives p em i {
+  box-shadow: unset;
+  color: #3c3c3c !important;
+  background: #fff !important;
+}
+.order-status li.actives p span {
+  display: block;
+  color: #3c3c3c;
+}
+.icon-Menu{
+  display: none;
+}
+
 .ALL_images__gallary_details p {
   color: #2C291E;
   font-weight: 600;
@@ -7118,3 +7142,4 @@ body.no-scroll {
   gap: 50px;
 }
 /* start my updates */
+
