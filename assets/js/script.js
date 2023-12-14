@@ -17,7 +17,7 @@ var swiper = new Swiper(".product__swiper--activation", {
     spaceBetween: 30,
     breakpoints: {
         1400: {
-            slidesPerView: 4
+            slidesPerView: 6
         },
         1100: {
             slidesPerView: 5,
