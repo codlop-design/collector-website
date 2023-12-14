@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>كل صور المعرض</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/my_photoes/collector.svg">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/lightgallery/css/lightgallery-bundle.css">
+    <link rel="stylesheet" href="assets/lightgallery/css/lg-fullscreen.css">
+    <link rel="stylesheet" href="assets/lightgallery/css/lg-rotate.css">
+    <link rel="stylesheet" href="assets/lightgallery/css/lg-share.css">
+    <link rel="stylesheet" href="assets/lightgallery/css/lg-thumbnail.css"> 
+    <link rel="stylesheet" href="assets/lightgallery/css/lg-autoplay.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+    <header class="header__section">
+
+        <div class="header__menu style3">
+
+            <div class="main__logo">
+                <a class="main__logo--link" href="index.html">
+                    <img class="main__logo--img" src="assets/img/my_photoes/collector.svg" alt="logo-img">
+                </a>
+            </div>
+
+            <nav class="header__menu--navigation">
+                <ul class="header__menu--wrapper d-flex">
+                    <li class="header__menu--items">
+                        <a class="header__menu--link" href="index.html">الرئيسية
+                        </a>
+                    </li>
+                    <li class="header__menu--items">
+                        <a class="header__menu--link" href="about.html">من نحن
+                        </a>
+                    </li>
+                    <li class="header__menu--items">
+                        <a class="header__menu--link" href="products.html">المنتجات
+                        </a>
+                    </li>
+                    <li class="header__menu--items">
+                        <a class="header__menu--link" href="javascript:;">معارض الصور
+                        </a>
+                    </li>
+                    <li class="header__menu--items contact-us-link">
+                        <a class="header__menu--link" href="contact.html">تواصل معنا</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <div class="top-bar">
+                <div class="top-part">
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            العربية
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"> <img
+                                        src="assets/img/my_photoes/Turkey_flag_300.png">التركية</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"> <img
+                                        src="assets/img/my_photoes/Flag_of_the_United_States.png">الانجليزية</a></li>
+                        </ul>
+                    </div>
+
+
+                    <li class="header__account--items login-li">
+                        <a class="header__account--btn" href="login.html" aria-label="link">
+                            <i class="bi bi-person-circle"></i>
+                            <!-- <div class="account-btn-text">
+                تسجيل الدخول
+              </div> -->
+                        </a>
+                    </li>
+
+
+                    <div class="onhover-dropdown">
+                        <div onclick="myFunction()" class="notification-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" icon-name="bell" data-lucide="bell" class="">
+                                <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                <path d="M13.73 21a2 2 0 01-3.46 0"></path>
+                            </svg>
+                            <span class="badge rounded-pill badge-warning" id="notification_count">2</span>
+                        </div>
+                        <div class="onhover-show-div notification-dropdown ">
+                            <div class="dropdown-title">
+                                <h3>الاشعارات</h3>
+                            </div>
+
+                            <ul class="custom-scrollbar" id="notifications_elements">
+                                <li>
+                                    <div class="media">
+                                        <div class="notification-img">
+                                            <img src="https://pbs.twimg.com/media/DBBkfhkXYAUNs_N?format=jpg&name=medium"
+                                                alt="">
+
+                                        </div>
+                                        <div class="media-body">
+                                            <h5><a class="m-0" href="#">محمد مصطفي</a></h5>
+                                            <p>منذ5 دقائق</p><span>تسجيل الدخول</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="p-0"><a class="view-all" href="#">عرض الكل</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="user-icon1">
+                        <img src="assets/img/my_photoes/man.svg">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </header>
+
+    <main class="main__content_wrapper">
+        <section class="page-sec">
+            <div class="container-fluid">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                    <li class="breadcrumb-item"><a href="ALL_images__gallary.html">كل صور المعرض</a></li>
+                </ol>
+                <h3 class="title-page">
+                  صور المعرض
+              </h3>
+                <div class="parts-page">
+
+                    <div class="products-part">
+                        <div class="ps-categogy__wrapper">
+
+                            <div class="ps-categogy__sort">
+
+                                <select class="form-select">
+                                    <option value="20" selected="selected">عرض 20</option>
+                                    <option value="40">عرض 40</option>
+                                    <option value="80">عرض 80</option>
+                                    <option value="160">عرض 160</option>
+                                    <option value="320">عرض 320</option>
+                                    <option value="640">عرض 640</option>
+                                    <option value="-1">عرض الكل</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="animated-thumbnails-gallery"
+                            class="products-grid products-grid-5 products-grid-4 products-grid-3 products-grid-2 products-grid-1">
+
+                            <a href="assets/img/my_photoes/save9.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save9.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save8.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save8.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save6.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save6.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save9.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save9.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save8.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save8.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save9.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save9.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save8.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save8.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save6.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save6.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save9.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save9.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save8.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save8.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save9.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save9.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save8.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save8.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save6.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save6.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save9.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save9.jpeg">
+
+                            </a>
+
+                            <a href="assets/img/my_photoes/save8.jpeg" class="card_product bg_card">
+                                <img src="assets/img/my_photoes/save8.jpeg">
+
+                            </a>
+
+
+                        </div>
+                        <ul class="pagination">
+                            <li class="page-item active"><a class="page-link" tabindex="0">1</a></li>
+                            <li class="page-item"><a class="page-link" tabindex="0">2</a></li>
+                            <li class="page-item"><a class="page-link" tabindex="0">3</a></li>
+                            <li class="page-item disabled"><a class="page-link" tabindex="0">…</a></li>
+                            <li class="page-item"><a class="page-link" tabindex="0">10</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer__section footer__bg5 footer__color--style">
+        <div class="container-fluid">
+            <div class="main__footer">
+                <div class="row ">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer__widget">
+                            <h2 class="footer__widget--title">عن collectot</h2>
+                            <div class="footer__widget--inner">
+                                <p class="footer__widget--desc">منصة الكترونية تتكون من موقع وتطبيق تقدم خدمات للعميل
+                                    لتسهيل شراء الخزن القمية وحل مشكلة البعدين الجغرافي والزمني وتسريع وتحسين كفاءة
+                                    الخدمة المقدمة في مجال الامن والسلامة</p>
+                                <div class="vat-maroof">
+
+                                    <a class="collector-link" href="#" target="_blank" title="collector">
+                                        <img src="assets/img/my_photoes/collector.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-3 col-6">
+                        <div class="footer__widget">
+                            <h2 class="footer__widget--title ">حسابي</h2>
+                            <ul class="footer__widget--menu footer__widget--inner">
+
+                                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                                        href="login.html">تسجيل
+                                        الدخول</a></li>
+                                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                                        href="register.html">انشاء
+                                        حساب</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-3 col-6">
+                        <div class="footer__widget">
+                            <h2 class="footer__widget--title ">معلومات عامة</h2>
+                            <ul class="footer__widget--menu footer__widget--inner">
+                                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                                        href="index.html">الرئيسية
+                                    </a></li>
+                                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                                        href="about.html">من
+                                        نحن</a></li>
+                                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                                        href="about.html">المنتجات
+                                    </a></li>
+                                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                                        href="about.html">معارض
+                                        الصور
+                                    </a></li>
+                                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                                        href="contact.html">تواصل
+                                        معنا</a></li>
+                                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                                        href="terms-and-conditions.html">سياسة الخصوصية</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="footer__widget">
+                            <h2 class="footer__widget--title ">أتصل بنا</h2>
+                            <div class="contact-us-footer">
+                                <li>
+                                    <i class="bi bi-geo-alt"></i>
+                                    <p>Saudi Arabia, AlQassim, Buraydah, King Salman Rd, Ar Rayan,52379</p>
+                                </li>
+                                <li>
+                                    <i class="bi bi-telephone"></i>
+                                    <a href="tel:+966530867300">+966530867300</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-envelope"></i>
+                                    <a href="mailto: Support@onoff.sa">Support@onoff.sa</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-r-circle"></i>
+                                    <p>Business registration number : 1131279608</p>
+                                </li>
+                                <li>
+                                    <i class="bi bi-percent"></i>
+                                    <p>Vat number : 311335856500003</p>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="btm-footer">
+                            <div class="download-app">
+                                <a href="https://play.google.com/store/apps/details?id=codlop.onoff" target="_blank"
+                                    title="link">
+                                    <img src="assets/img/icon/Android.png" alt="">
+                                </a>
+                                <a href="https://apps.apple.com/eg/app/onoff/id1602068670" target="_blank" title="link">
+                                    <img src="assets/img/icon/iOS.png" alt="">
+                                </a>
+                            </div>
+                            <ul class="social-footer">
+                                <li><a class="bi bi-facebook" target="_blank" title="facebook"
+                                        href="https://www.facebook.com/%D8%A3%D9%88%D9%86-%D8%A3%D9%88%D9%81-101787768959832"></a>
+                                </li>
+                                <li><a class="bi bi-twitter" target="_blank" title="twitter"
+                                        href="https://twitter.com/onoffksa/"></a>
+                                </li>
+                                <li><a class="bi bi-linkedin" target="_blank" title="linkedin"
+                                        href="https://www.linkedin.com/company/onoffksa/"></a></li>
+                                <li><a class="bi bi-instagram" target="_blank" title="instagram"
+                                        href="https://www.instagram.com/onoffksa/"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container-fluid">
+                <div class="footer__bottom--inenr">
+                    <p>جميع الحقوق محفوظة © OnOff - برمجة وتصميم <a href="https://codlop.sa/ar"
+                            target="_blank">Codlop</a>
+                    </p>
+                    <div class="footer__payment">
+                        <img src="assets/img/icon/visa.webp" alt="">
+                        <img src="assets/img/icon/mastercard.webp" alt="">
+                        <img src="assets/img/icon/vapulus.png" alt="">
+                        <img src="assets/img/icon/mada.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll top bar -->
+    <button id="scroll__top">
+        <i class="bi bi-chevron-up"></i>
+    </button>
+
+    <script src="assets/js/plugins/jquery.min.js"></script>
+    <script src="assets/js/vendor/popper.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/image-zoom/js-image-zoom.js"></script>
+    <script src="assets/lightgallery/lightgallery.umd.js"></script>
+    <script src="assets/lightgallery/lg-thumbnail.umd.js"></script>
+    <script src="assets/lightgallery/lg-autoplay.min.js"></script>
+    <script src="assets/lightgallery/lg-fullscreen.min.js"></script>
+    <script src="assets/lightgallery/lg-rotate.min.js"></script>
+    <script src="assets/lightgallery/lg-share.min.js"></script>
+    <script src="assets/lightgallery/lg-zoom.umd.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+
+    <!-- الاسكربتاية الخاصة بالاشعارات اللي في الهيدر  -->
+    <script>
+        function myFunction() {
+            var element = document.querySelector(".notification-dropdown");
+            element.classList.toggle("active");
+        }
+    </script>
+
+    <!-- الاسكربتاية الخاصة بالlightglary -->
+
+    <script>
+        lightGallery(document.getElementById('animated-thumbnails-gallery'), {
+            thumbnail: true,
+            plugins: [lgThumbnail,lgAutoplay,lgFullscreen,lgRotate,lgShare]
+
+        });
+    </script>
+
+</body>
+
+</html>
