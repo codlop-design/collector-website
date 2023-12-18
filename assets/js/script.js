@@ -306,3 +306,25 @@ var incrementMinus = buttonMinus.click(function () {
 });
 
 
+// Initialize Swiper //
+  var swiper = new Swiper(".main_slider", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+//  notifcation header script//
+  function myFunction() {
+    var element = document.querySelector(".notification-dropdown");
+    element.classList.toggle("active");
+  }
+
+// lightgallary//
+lightGallery(document.getElementById('animated-thumbnails-gallery'), {
+    thumbnail: true,
+    plugins: [lgThumbnail,lgAutoplay,lgFullscreen,lgRotate,lgShare]
+
+});
+
+
