@@ -782,7 +782,7 @@
   }
 
   .dts-page .left-sec .p-que-addcart .buy-now {
-    margin-bottom: 12px;
+    margin-bottom:0px;
   }
 }
 
@@ -817,7 +817,7 @@
     height: 400px;
   }
   .cg-share h1 {
-    font-size: 25px;
+    font-size: 23px;
   }
   .header__menu--items:last-child{
     border-bottom: 0;
@@ -1637,7 +1637,7 @@
   }
 
   .page-sec {
-    padding-top: 105px;
+    padding-top: 35px;
   }
 
   .cart-sec .cart-dts .p-dts .btm-part {
@@ -1738,7 +1738,7 @@
   }
 
   .modal-dialog {
-    margin: 15px;
+    margin: 15px auto;
   }
 
   .checkout-parts .products-checkout {
@@ -1902,7 +1902,7 @@
 
   .g-d-sec {
     flex-direction: column;
-    gap: 30px !important;
+    gap: 22px !important;
   }
 
   .dts-page .thumbs {
@@ -2906,7 +2906,7 @@ padding: 6px;
   }
 
   .page-sec {
-    padding-top: 95px;
+    padding-top: 30px;
   }
 
   .blog__card .blog__card--thumbnail img {

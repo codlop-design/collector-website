@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>collector</title>
+  <title>الرئيسية</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/my_photoes/collector.svg">
   <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
@@ -71,9 +71,7 @@
           <li class="header__account--items login-li">
             <a class="header__account--btn" href="login.html" aria-label="link">
               <i class="bi bi-person-circle"></i>
-              <!-- <div class="account-btn-text">
-                تسجيل الدخول
-              </div> -->
+
             </a>
           </li>
 
@@ -112,11 +110,22 @@
             </div>
           </div>
 
-          <div class="user-icon1">
-            <img src="assets/img/my_photoes/man.svg">
+          <!--  user_icon  -->
+          <div class="dropdown">
+            <div class="user-icon1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="assets/img/my_photoes/man.svg">
+            </div>
+            <ul class="dropdown-menu user__drop">
+              <li><a class="dropdown-item" href="#"><img class="file__icon" src="assets/img/my_photoes/man.svg">محمد
+                  مصطفي</a></li>
+              <li><a class="dropdown-item" href="#"><img class="file__icon" src="assets/img/my_photoes/exit.svg"> تسجيل
+                  الخروج</a></li>
+              <li><a class="dropdown-item" href="edit-account.html"><img class="file__icon"
+                    src="assets/img/my_photoes/personal.svg">الملف الشخصي</a></li>
+            </ul>
           </div>
 
-
+          <!-- user_icon -->
 
         </div>
       </div>
@@ -135,14 +144,15 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide ">
             <div class="main_slider_img-titiles">
-              <img class="main_slider_img" src="assets/img/my_photoes/best-safe-for-documents-85c149aeb4de4591966bd2b9735ab887.jpg">
+              <img class="main_slider_img"
+                src="assets/img/my_photoes/best-safe-for-documents-85c149aeb4de4591966bd2b9735ab887.jpg">
 
               <div class="swiper-titel">
                 <h1>الامن والامان يبدء من عندنا</h1>
                 <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
                   يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
                   التطبيق.</p>
-                  <button class="know_us">تعرف علينا</button>
+                <button class="know_us">تعرف علينا</button>
               </div>
 
             </div>
@@ -157,7 +167,7 @@
                 <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
                   يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
                   التطبيق.</p>
-                  <button class="know_us">تعرف علينا</button>
+                <button class="know_us">تعرف علينا</button>
 
               </div>
 
@@ -177,13 +187,18 @@
     <div class="container-fluid">
 
       <div class="aboutUS">
+  
         <div class="about-usImg">
-          <img src="assets/img/my_photoes/best-safe-for-documents-85c149aeb4de4591966bd2b9735ab887.jpg">
+          <img src="assets/img/my_photoes/safes_photes.png">
         </div>
 
         <div class="aboutUS-titeles">
-          <h1>من نحن :</h1>
-          <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن
+          <div class="section__heading mb-30">
+            <h2 class="section__heading--maintitle ">من نحن</h2>
+          
+          </div>
+          <!-- <h1 class="h1__about">من نحن </h1> -->
+          <div class="p__about">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن
             تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
             هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن
             تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
@@ -194,7 +209,7 @@
             تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
             إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو
             مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من
-           </p>
+          </div>
 
         </div>
 
@@ -230,7 +245,7 @@
 
             </div>
             <div class="swiper-slide">
-              <a class="gallary-images"href="ALL_images__gallary.html">
+              <a class="gallary-images" href="ALL_images__gallary.html">
                 <div class="small-gallary-img" style="background-image: url(assets/img/my_photoes/save2.png);">
                   <img src="assets/img/my_photoes/save2.png">
                   <p class="small-gallary-imgTitels">
@@ -259,7 +274,7 @@
               </a>
 
             </div>
-            <div class="swiper-slide" >
+            <div class="swiper-slide">
               <a class="gallary-images" href="ALL_images__gallary.html">
                 <div class="small-gallary-img" style="background-image: url(assets/img/my_photoes/save4.png);">
                   <img src="assets/img/my_photoes/save4.png">
@@ -275,7 +290,7 @@
 
             </div>
             <div class="swiper-slide">
-              <a class="gallary-images"href="ALL_images__gallary.html">
+              <a class="gallary-images" href="ALL_images__gallary.html">
                 <div class="small-gallary-img" style="background-image: url(assets/img/my_photoes/save5.png);">
                   <img src="assets/img/my_photoes/save5.png">
                   <p class="small-gallary-imgTitels">
@@ -289,7 +304,7 @@
               </a>
 
             </div>
-            <div class="swiper-slide" >
+            <div class="swiper-slide">
               <a class="gallary-images" href="Photo_Gallery.html">
                 <div class="small-gallary-img" style="background-image: url(assets/img/my_photoes/save6.png);">
                   <img src="assets/img/my_photoes/save6.png">
@@ -305,7 +320,7 @@
 
             </div>
             <div class="swiper-slide">
-              <a class="gallary-images"   href="Photo_Gallery.html">
+              <a class="gallary-images" href="Photo_Gallery.html">
                 <div class="small-gallary-img" style="background-image: url(assets/img/my_photoes/save.jfif);">
                   <img src="assets/img/my_photoes/save.jfif">
                   <p class="small-gallary-imgTitels">
@@ -334,7 +349,7 @@
               </a>
 
             </div>
-            <div class="swiper-slide" >
+            <div class="swiper-slide">
               <a class="gallary-images" href="ALL_images__gallary.html">
                 <div class="small-gallary-img" style="background-image: url(assets/img/my_photoes/save4.png);">
                   <img src="assets/img/my_photoes/save4.png">
@@ -350,7 +365,7 @@
 
             </div>
             <div class="swiper-slide">
-              <a class="gallary-images"href="ALL_images__gallary.html">
+              <a class="gallary-images" href="ALL_images__gallary.html">
                 <div class="small-gallary-img" style="background-image: url(assets/img/my_photoes/save5.png);">
                   <img src="assets/img/my_photoes/save5.png">
                   <p class="small-gallary-imgTitels">
@@ -364,7 +379,7 @@
               </a>
 
             </div>
-            <div class="swiper-slide" >
+            <div class="swiper-slide">
               <a class="gallary-images" href="ALL_images__gallary.html">
                 <div class="small-gallary-img" style="background-image: url(assets/img/my_photoes/save4.png);">
                   <img src="assets/img/my_photoes/save4.png">
@@ -380,7 +395,7 @@
 
             </div>
             <div class="swiper-slide">
-              <a class="gallary-images"href="ALL_images__gallary.html">
+              <a class="gallary-images" href="ALL_images__gallary.html">
                 <div class="small-gallary-img" style="background-image: url(assets/img/my_photoes/save5.png);">
                   <img src="assets/img/my_photoes/save5.png">
                   <p class="small-gallary-imgTitels">
@@ -546,8 +561,7 @@
       <section class="product__section section--padding">
         <div class="section__heading mb-30">
           <h2 class="section__heading--maintitle">تتبع الفاتورة</h2>
-          <button type="button" class="more-products" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            تتبع حالة الفاتورة </button>
+
           <!-- start follow_bill -->
 
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -555,66 +569,69 @@
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title" id="exampleModalLabel">حالة الفاتورة</h1>
+                  <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"><i
+                    class="bi bi-x-lg"></i></button>
                 </div>
                 <div class="modal-body">
                   <div>
+                    <h1 class="modal-title" id="exampleModalLabel">حالة الفاتورة</h1>
+
                     <ul class="order-status">
                       <li class="active">
-                          <p>
-                              <em>
-                                  <i class="bi bi-check-lg"></i>
-                              </em>
-                              <span>قيد الانتظار</span>
-                          </p>
+                        <p>
+                          <em>
+                            <i class="bi bi-check-lg"></i>
+                          </em>
+                          <span>قيد الانتظار</span>
+                        </p>
                       </li>
                       <li class="actives">
-                          <p>
-                              <em>
-                                  <i class="bi bi-check-lg"></i>
-                              </em>
-                              <span> تصنيع الخشب </span>
-                          </p>
-                      </li>
-                      <li >
-                          <p>
-                              <em>
-                                  <i class="bi bi-check-lg"></i>
-                              </em>
-                              <span> الانتاج </span>
-                          </p>
+                        <p>
+                          <em>
+                            <i class="bi bi-check-lg"></i>
+                          </em>
+                          <span> تصنيع الخشب </span>
+                        </p>
                       </li>
                       <li>
-                          <p>
-                              <em>
-                                  <i class="bi bi-check-lg"></i>
-                              </em>
-                              <span> قيد التجهيز </span>
-                          </p>
+                        <p>
+                          <em>
+                            <i class="bi bi-check-lg"></i>
+                          </em>
+                          <span> الانتاج </span>
+                        </p>
                       </li>
-                      <li >
-                          <p>
-                              <em>
-                                  <i class="bi bi-check-lg"></i>
-                              </em>
-                              <span>قيد التغليف</span>
-                          </p>
+                      <li>
+                        <p>
+                          <em>
+                            <i class="bi bi-check-lg"></i>
+                          </em>
+                          <span> قيد التجهيز </span>
+                        </p>
                       </li>
-                      <li >
-                          <p>
-                              <em>
-                                  <i class="bi bi-check-lg"></i>
-                              </em>
-                              <span> جاهز للتسليم </span>
-                          </p>
+                      <li>
+                        <p>
+                          <em>
+                            <i class="bi bi-check-lg"></i>
+                          </em>
+                          <span>قيد التغليف</span>
+                        </p>
                       </li>
-                      <li >
-                          <p>
-                              <em>
-                                  <i class="bi bi-check-lg"></i>
-                              </em>
-                              <span> تم التسليم </span>
-                          </p>
+                      <li>
+                        <p>
+                          <em>
+                            <i class="bi bi-check-lg"></i>
+                          </em>
+                          <span> جاهز للتسليم </span>
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <em>
+                            <i class="bi bi-check-lg"></i>
+                          </em>
+                          <span> تم التسليم </span>
+                        </p>
                       </li>
                   </div>
                   <div class="bill_div">
@@ -637,16 +654,12 @@
                         </div>
 
                       </div>
-
-
                     </div>
-
-
                   </div>
                 </div>
-                <div class="modal-footer">
+                <!-- <div class="modal-footer">
                   <button type="button" class="btn_close" data-bs-dismiss="modal">غلق</button>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -663,7 +676,8 @@
                   <input type="text" class="form-control input_bill" placeholder="رقم الفاتورة">
                 </div>
                 <img class="small_billImg" src="assets/img/my_photoes/bill.png">
-
+                <button type="button" class="more-products pill_details" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  تتبع حالة الفاتورة </button>
               </div>
             </div>
 
@@ -673,13 +687,13 @@
 
       </section>
     </div>
-        <!-- نهاية سكسن تتبع الفاتورة -->
+    <!-- نهاية سكسن تتبع الفاتورة -->
 
   </main>
 
   <footer class="footer__section footer__bg5 footer__color--style">
-    
-  
+
+
     <div class="container-fluid">
       <div class="main__footer">
         <div class="row ">
@@ -688,10 +702,10 @@
               <h2 class="footer__widget--title">عن collectot</h2>
               <div class="footer__widget--inner">
                 <p class="footer__widget--desc">منصة الكترونية تتكون من موقع وتطبيق تقدم خدمات للعميل
-                  لتسهيل شراء  الخزن القمية وحل مشكلة البعدين الجغرافي والزمني وتسريع وتحسين كفاءة
+                  لتسهيل شراء الخزن القمية وحل مشكلة البعدين الجغرافي والزمني وتسريع وتحسين كفاءة
                   الخدمة المقدمة في مجال الامن والسلامة</p>
                 <div class="vat-maroof">
-          
+
                   <a class="collector-link" href="#" target="_blank" title="collector">
                     <img src="assets/img/my_photoes/collector.svg" alt="">
                   </a>
@@ -703,12 +717,16 @@
             <div class="footer__widget">
               <h2 class="footer__widget--title ">حسابي</h2>
               <ul class="footer__widget--menu footer__widget--inner">
-                
+
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="login.html">تسجيل
                     الدخول</a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="register.html">انشاء
                     حساب</a></li>
-           
+                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="edit-account.html">تعديل
+                    الملف الشخصي
+                  </a></li>
+
+
               </ul>
             </div>
           </div>
@@ -717,18 +735,25 @@
               <h2 class="footer__widget--title ">معلومات عامة</h2>
               <ul class="footer__widget--menu footer__widget--inner">
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="index.html">الرئيسية
-                </a></li>
+                  </a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">من
                     نحن</a></li>
-                    <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">المنتجات
-                      </a></li>
-                      <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">معارض الصور
-                        </a></li>
+                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                    href="products.html">المنتجات
+                  </a></li>
+                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                    href="Photo_Gallery.html">معارض الصور
+                  </a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="contact.html">تواصل
                     معنا</a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
-                    href="terms-and-conditions.html">سياسة الخصوصية</a></li>
-            
+                    href="Usage policy.html">سياسة الخصوصية</a></li>
+
+                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                    href="terms-and-conditions.html">الشروط والاحكام</a></li>
+                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="#">سياسة
+                    الاستخدام</a></li>
+
               </ul>
             </div>
           </div>
@@ -788,7 +813,7 @@
     <div class="footer__bottom">
       <div class="container-fluid">
         <div class="footer__bottom--inenr">
-          <p>جميع الحقوق محفوظة © OnOff - برمجة وتصميم <a href="https://codlop.sa/ar" target="_blank">Codlop</a>
+          <p>جميع الحقوق محفوظة © collector - برمجة وتصميم <a href="https://codlop.sa/ar" target="_blank">Codlop</a>
           </p>
           <div class="footer__payment">
             <img src="assets/img/icon/visa.webp" alt="">
@@ -806,107 +831,6 @@
     <i class="bi bi-chevron-up"></i>
   </button>
 
-  <!-- <nav class="all-menu">
-    <a class="login-link" href="login.html">
-      <i class="bi bi-person-circle"></i>
-      مرحبا بك , تسجيل الدخول
-    </a>
-    <div class="over-auto">
-      <div class="main-catgeory">
-        <h3>تسوق حسب القسم</h3>
-        <ul>
-          <li>
-            <a href="#">
-              تكييف وتدفئه
-              <i class="bi bi-caret-left-fill"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              ثلاجات و فريزرات
-              <i class="bi bi-caret-left-fill"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              الغسالات والنشافات
-              <i class="bi bi-caret-left-fill"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              الميكرويف والأفرن
-              <i class="bi bi-caret-left-fill"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              أدوات المطبخ
-              <i class="bi bi-caret-left-fill"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="secondary-catgeory">
-        <a href="#" class="back-menu">
-          <i class="bi bi-arrow-right"></i>
-          العودة للقائمة الرئيسية
-        </a>
-        <h3>تكييف وتدفئه</h3>
-        <ul>
-          <li><a href="products.html">مكيف اسبلت</a></li>
-          <li><a href="products.html">مكيف شباك</a></li>
-          <li><a href="products.html">مكيف دولابي</a></li>
-          <li><a href="products.html">مكيف كاسيت</a></li>
-          <li><a href="products.html">مكيف دكت</a></li>
-          <li><a href="products.html">مكيف معلق جداري</a></li>
-          <li><a href="products.html">مكيف نقال</a></li>
-          <li><a href="products.html">دفاية</a></li>
-        </ul>
-      </div>
-      <div class="help-settings">
-        <h3>البيانات والتواصل</h3>
-        <a href="about.html">
-          <i class="bi bi-info-circle"></i>
-          معلومات عن OnOff
-        </a>
-        <a href="contact.html">
-          <i class="bi bi-telephone"></i>
-          تواصل معنا
-        </a>
-        <ul class="menu-profile">
-          <li>
-            <a href="edit-account.html">
-              <i class="bi bi-person-circle"></i>
-              حسابي</a>
-          </li>
-          <li>
-            <a href="orders.html">
-              <i class="bi bi-bag"></i>
-              طلباتي</a>
-          </li>
-          <li>
-            <a href="edit-address.html" class="active">
-              <i class="bi bi-geo-alt"></i>
-              عناويني</a>
-          </li>
-          <li>
-            <a href="wishlist.html">
-              <i class="bi bi-heart"></i>
-              المفضلة</a>
-          </li>
-          <li>
-            <a href="login.html">
-              <i class="bi bi-box-arrow-right"></i>
-              تسجيل الخروج</a>
-          </li>
-      </div>
-    </div>
-  </nav> -->
-
-  <!-- <div class="overlay-menu">
-    <i class="bi bi-x-lg close-menu"></i>
-  </div> -->
 
   <script src="assets/js/plugins/jquery.min.js"></script>
   <script src="assets/js/vendor/popper.js"></script>
@@ -915,23 +839,7 @@
   <script src="assets/js/plugins/image-zoom/js-image-zoom.js"></script>
   <script src="assets/js/script.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".main_slider", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
 
-  <!-- الاسكربتاية الخاصة بالاشعارات اللي في الهيدر  -->
-  <script>
-    function myFunction() {
-      var element = document.querySelector(".notification-dropdown");
-      element.classList.toggle("active");
-    }
-  </script>
 </body>
 
 </html>

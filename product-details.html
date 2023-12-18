@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>collector</title>
+  <title>تفاصيل المنتج</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -19,30 +19,31 @@
 
 <body>
   <header class="header__section">
+
     <div class="header__menu style3">
 
       <div class="main__logo">
         <a class="main__logo--link" href="index.html">
           <img class="main__logo--img" src="assets/img/my_photoes/collector.svg" alt="logo-img">
         </a>
+      </div>
 
-      </div>
-      <div class="icon-Menu">
-        <i class="fa-solid fa-bars"></i>
-      </div>
       <nav class="header__menu--navigation">
-
         <ul class="header__menu--wrapper d-flex">
           <li class="header__menu--items">
-            <a class="header__menu--link" href="javascript:;">من نحن
+            <a class="header__menu--link" href="index.html">الرئيسية
             </a>
           </li>
           <li class="header__menu--items">
-            <a class="header__menu--link" href="javascript:;">المنتجات
+            <a class="header__menu--link" href="about.html">من نحن
             </a>
           </li>
           <li class="header__menu--items">
-            <a class="header__menu--link" href="javascript:;">معارض الصور
+            <a class="header__menu--link" href="products.html">المنتجات
+            </a>
+          </li>
+          <li class="header__menu--items">
+            <a class="header__menu--link" href="Photo_Gallery.html">معارض الصور
             </a>
           </li>
           <li class="header__menu--items contact-us-link">
@@ -50,6 +51,7 @@
           </li>
         </ul>
       </nav>
+
 
       <div class="top-bar">
         <div class="top-part">
@@ -71,9 +73,7 @@
           <li class="header__account--items login-li">
             <a class="header__account--btn" href="login.html" aria-label="link">
               <i class="bi bi-person-circle"></i>
-              <!-- <div class="account-btn-text">
-                تسجيل الدخول
-              </div> -->
+
             </a>
           </li>
 
@@ -112,16 +112,30 @@
             </div>
           </div>
 
-          <div class="user-icon1">
-            <img src="assets/img/my_photoes/man.svg">
+          <!--  user_icon  -->
+          <div class="dropdown">
+            <div class="user-icon1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="assets/img/my_photoes/man.svg">
+            </div>
+            <ul class="dropdown-menu user__drop">
+              <li><a class="dropdown-item" href="#"><img class="file__icon" src="assets/img/my_photoes/man.svg">محمد
+                  مصطفي</a></li>
+              <li><a class="dropdown-item" href="#"><img class="file__icon" src="assets/img/my_photoes/exit.svg"> تسجيل
+                  الخروج</a></li>
+              <li><a class="dropdown-item" href="edit-account.html"><img class="file__icon"
+                    src="assets/img/my_photoes/personal.svg">الملف الشخصي</a></li>
+            </ul>
           </div>
 
-
+          <!-- user_icon -->
 
         </div>
       </div>
 
+
     </div>
+    </div>
+
   </header>
 
   <main class="main__content_wrapper">
@@ -502,6 +516,8 @@
   </main>
 
   <footer class="footer__section footer__bg5 footer__color--style">
+    
+  
     <div class="container-fluid">
       <div class="main__footer">
         <div class="row ">
@@ -510,10 +526,10 @@
               <h2 class="footer__widget--title">عن collectot</h2>
               <div class="footer__widget--inner">
                 <p class="footer__widget--desc">منصة الكترونية تتكون من موقع وتطبيق تقدم خدمات للعميل
-                  لتسهيل شراء الخزن القمية وحل مشكلة البعدين الجغرافي والزمني وتسريع وتحسين كفاءة
+                  لتسهيل شراء  الخزن القمية وحل مشكلة البعدين الجغرافي والزمني وتسريع وتحسين كفاءة
                   الخدمة المقدمة في مجال الامن والسلامة</p>
                 <div class="vat-maroof">
-
+          
                   <a class="collector-link" href="#" target="_blank" title="collector">
                     <img src="assets/img/my_photoes/collector.svg" alt="">
                   </a>
@@ -525,12 +541,16 @@
             <div class="footer__widget">
               <h2 class="footer__widget--title ">حسابي</h2>
               <ul class="footer__widget--menu footer__widget--inner">
-
+                
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="login.html">تسجيل
                     الدخول</a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="register.html">انشاء
                     حساب</a></li>
-
+                    <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="edit-account.html">تعديل
+                      الملف الشخصي
+                    </a></li>
+  
+           
               </ul>
             </div>
           </div>
@@ -539,19 +559,23 @@
               <h2 class="footer__widget--title ">معلومات عامة</h2>
               <ul class="footer__widget--menu footer__widget--inner">
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="index.html">الرئيسية
-                  </a></li>
+                </a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">من
                     نحن</a></li>
-                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">المنتجات
-                  </a></li>
-                <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="about.html">معارض
-                    الصور
-                  </a></li>
+                    <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="products.html">المنتجات
+                      </a></li>
+                      <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="Photo_Gallery.html">معارض الصور
+                        </a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="contact.html">تواصل
                     معنا</a></li>
                 <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
-                    href="terms-and-conditions.html">سياسة الخصوصية</a></li>
+                    href="Usage policy.html">سياسة الخصوصية</a></li>
 
+                    <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                      href="terms-and-conditions.html">الشروط والاحكام</a></li>
+                      <li class="footer__widget--menu__list"><a class="footer__widget--menu__text"
+                        href="#">سياسة الاستخدام</a></li>
+            
               </ul>
             </div>
           </div>
@@ -611,7 +635,7 @@
     <div class="footer__bottom">
       <div class="container-fluid">
         <div class="footer__bottom--inenr">
-          <p>جميع الحقوق محفوظة © OnOff - برمجة وتصميم <a href="https://codlop.sa/ar" target="_blank">Codlop</a>
+          <p>جميع الحقوق محفوظة © collector - برمجة وتصميم <a href="https://codlop.sa/ar" target="_blank">Codlop</a>
           </p>
           <div class="footer__payment">
             <img src="assets/img/icon/visa.webp" alt="">
@@ -673,13 +697,7 @@
 
   </script>
 
-  <!-- الاسكربتاية الخاصة بالاشعارات اللي في الهيدر  -->
-  <script>
-    function myFunction() {
-      var element = document.querySelector(".notification-dropdown");
-      element.classList.toggle("active");
-    }
-  </script>
+
 </body>
 
 </html>
