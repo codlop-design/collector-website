@@ -715,7 +715,7 @@ select {
 }
 
 .header__menu--items:hover .header__menu--link {
-  color: #fd0251 !important;
+  color: #d36d59 !important;
 }
 
 .header__menu--items:hover .header__sub--menu {
@@ -1173,7 +1173,7 @@ select {
 }
 
 .footer__color--style .footer__widget--menu__text:hover {
-  color: #322e2e;
+  color: #d36d59;
   text-decoration: underline;
 }
 
@@ -4596,7 +4596,7 @@ em {
 }
 
 .account-page .list-pages ul li a:hover {
-  color: #000;
+  color: #d36d59;
 }
 
 .account-page .list-pages ul li a i {
@@ -6954,7 +6954,7 @@ box-shadow: inset 0px 2px 2px #3c3c3c;
   display: block;
   color: #3c3c3c;
 }
-.icon-Menu{
+.btn_menu{
   display: none;
 }
 
@@ -7202,9 +7202,118 @@ box-shadow: inset 0px 2px 2px #3c3c3c;
 {
   font-size:30px !important;
 }
-/* start my updates */
+
+.btn_close{
+  position: relative;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: left;
+  color:#3C3C3C;
+  display: none;
+}
+
+.menu-backdrop{
+  background:#3c3c3c94;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 900ms ease;
+  display: none;
+}
+/* end my updates */
 
 /* start my responsive */
+
+@media (max-width:992px) {
+  .btn_menu i{
+    font-size: 33px;
+  }
+  .header__menu .style3{
+    position: relative;
+  }
+  
+  .header__menu--wrapper{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 400px;
+    min-height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    background: #fff;
+    padding: 0px 0px;
+    z-index: 5;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%);
+    transition: all 500ms ease 0ms;
+    -moz-transition: all 500ms ease 0ms;
+    -ms-transition: all 500ms ease 0ms;
+    -o-transition: all 500ms ease 0ms;
+    border-radius: 0px;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .header__menu--navigation.show_menu  .header__menu--wrapper{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    transition: all 500ms ease 0ms;
+    -moz-transition: all 500ms ease 0ms;
+    -ms-transition: all 500ms ease 0ms;
+    -o-transition: all 500ms ease 0ms;
+
+  } 
+  .btn_menu{
+    display: block;
+  
+  }
+
+  .header__menu--navigation{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    z-index: 999999;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: all 500ms ease 0ms;
+    -moz-transition: all 500ms ease 0ms;
+    -ms-transition: all 500ms ease 0ms;
+    -o-transition: all 500ms ease 0ms;  
+  
+  }
+ 
+ .header__menu--navigation.show_menu{
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+  transition: all 500ms ease 0ms;
+  -moz-transition: all 500ms ease 0ms;
+  -ms-transition: all 500ms ease 0ms;
+  -o-transition: all 500ms ease 0ms;
+} 
+
+.btn_close{
+  display: block;
+}
+
+.menu-backdrop{
+  display: block;
+}
+
+}
+
 @media (max-width:768px) {
   .aboutUS {
     margin-top: 20px;
@@ -7438,8 +7547,10 @@ box-shadow: inset 0px 2px 2px #3c3c3c;
 }
 
 .p_titel {
-  font-size: 16px;
+  font-size: 15px;
   padding-bottom: 0px;
+  line-height: 22px;
+  padding-top: 7px;
 }
 
 .dts-page .main-dts .p-name {
@@ -7469,6 +7580,32 @@ box-shadow: inset 0px 2px 2px #3c3c3c;
   width: 90px;
 }
 
+.header__menu--wrapper {
+  width: 250px;
+ 
+}
+
+.p-quentity .qty-btn {
+  height: 22px;
+  width: 22px;
+  font-size: 21px;
+}
+
+
+.order_titel p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.order_titel h2 {
+  font-size: 19px;
+  color: #141105;
+}
+
+.successful__add_Img img {
+  width: 90px;
+  min-width: 90px;
+}
 }
 
 @media (max-width:375px) {
@@ -7479,6 +7616,26 @@ box-shadow: inset 0px 2px 2px #3c3c3c;
 
 .card_product_detail .p_clamp {
   font-size: 15px;
+}
+
+.swiper-titel h1 {
+  font-size: 22px;
+}
+
+.swiper-titel p {
+  font-size: 15px;
+  color: #fff;
+  line-height: 18px;
+  margin: 0;
+}
+
+.order_titel h2 {
+  font-size: 18px;
+  color: #141105;
+}
+
+.order_Request img {
+  width: 75px;
 }
 }
 
